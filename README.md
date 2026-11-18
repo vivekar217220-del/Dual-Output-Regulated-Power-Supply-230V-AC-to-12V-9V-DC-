@@ -1,13 +1,16 @@
-# Dual Output Regulated Power Supply (230V AC to 12V & 9V DC)
+# Dual-Output Regulated Power Supply
 
-This project demonstrates a dual-output regulated power supply using 7812 and 7809 voltage regulators.  
-Input 230V AC is stepped down, rectified, filtered, and regulated to provide stable 12V and 9V DC outputs.
+A Proteus simulation of a supply that converts a 230 V AC input into regulated 12 V and 9 V DC outputs.
 
-Components used:
-- Step-down transformer
-- Bridge rectifier
-- Filter capacitors
-- IC 7812 (12V regulator)
-- IC 7809 (9V regulator)
+![Dual-output power supply schematic in Proteus](<Screenshot 2026-02-07 115247.png>)
 
-Designed and simulated in Proteus.
+## Circuit stages
+
+| Stage | What it does |
+| --- | --- |
+| Step-down transformer | Lowers the AC voltage before rectification. |
+| Bridge rectifier | Produces pulsating DC. |
+| Filter capacitors | Smooth the rectified voltage before regulation. |
+| 7812 and 7809 regulators | Provide the 12 V and 9 V outputs. |
+
+The repository contains a [screenshot of the Proteus simulation](<Screenshot 2026-02-07 115247.png>).
