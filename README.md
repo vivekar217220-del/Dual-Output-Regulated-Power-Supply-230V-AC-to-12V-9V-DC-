@@ -13,4 +13,6 @@ A Proteus simulation of a supply that converts a 230 V AC input into regulated 1
 | Filter capacitors | Smooth the rectified voltage before regulation. |
 | 7812 and 7809 regulators | Provide the 12 V and 9 V outputs. |
 
-The repository contains a [screenshot of the Proteus simulation](<Screenshot 2026-02-07 115247.png>).
+## What to inspect in the simulation
+
+Trace the shared rectifier and filter stage, then follow the two regulated output paths through the 7812 and 7809. Open the [full-size schematic](<Screenshot 2026-02-07 115247.png>).
